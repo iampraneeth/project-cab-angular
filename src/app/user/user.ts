@@ -1,6 +1,6 @@
 export class User{
     username:string;
     password:string;
-    mobile:number;
+    number:number;
     email:string;
 }

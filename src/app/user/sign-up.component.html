@@ -5,9 +5,9 @@
     <h3 class="text-center text-light">Sign Up</h3>
     <form class="form-horizontal" (ngSubmit)="signUpDetailsOfUser()" #accountForm="ngForm">
         <div class="form-group">
-            <label class="control-label col-sm-2 text-light" for="name">Name:</label>
+            <label class="control-label col-sm-2 text-light" for="username">Name:</label>
             <div class="col-sm-12">
-                <input type="text" class="form-control" id="name" placeholder="Enter Name" [(ngModel)]="user.username" name="username" required>
+                <input type="text" class="form-control" id="username" placeholder="Enter Name" [(ngModel)]="user.username" name="username" required>
             </div>
         </div>
 
@@ -38,8 +38,8 @@
         <div class="form-group">
             <label class="control-label col-sm-10 text-light" for="mobileNumber">Mobile Number:</label>
             <div class="col-sm-12">
-                <input type="tel" class="form-control" id="mobileNumber" 
-                 title="Enter Mobile number starting with a number between 6-9 and length should be 10" placeholder="Enter Mobile Number" [(ngModel)]="user.mobile" name="mobile" required />
+                <input type="tel" class="form-control" id="number" 
+                 title="Enter Mobile number starting with a number between 6-9 and length should be 10" placeholder="Enter Mobile Number" [(ngModel)]="user.number" name="number" required />
             </div>
         </div>
 
