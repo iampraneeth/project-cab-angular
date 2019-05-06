@@ -1,0 +1,56 @@
+li a:hover{
+    background-color:black;
+    border-radius: 5px;
+    }
+#footer {
+         height:330px;
+         width:1424px;
+         background-color:#151513;
+          float:left;
+     }
+.f{
+     height: 200px;
+     width:  420px;
+     float: left;
+    margin:10px;
+ }
+  .hed{
+     font-size: 18px;
+    color:whitesmoke;
+     }
+     #p6{
+       color:#e85505;
+       font-weight: bold;
+    }
+figure{
+     height:  100px;
+    float: left;
+     }
+#ul3 {
+    
+    }
+    #ul3 li{
+        color:whitesmoke;
+                font-size: 18px;
+                line-height: 1.5;
+            }
+            #p7
+            {
+                color:whitesmoke;
+                text-align: center;
+                font-size: 18px;
+            }
+            #fig
+            {
+                height: 50px;
+                width:300px;
+            }
+            #fig img
+            {
+                height:  40px;
+                width:  40px;
+                margin-right:10px;
+            }
+    nav{
+        height: 100px;
+    }
