@@ -15,13 +15,13 @@ export class UserSignUpComponent implements OnInit {
     
   
     signUpDetailsOfUser(){
-        alert("method");
+        alert("Registration successfull");
           console.log(this.user);
         this.userService.signUpDetailsOfUser(this.user).subscribe((data)=>{
              console.log("success");
              console.log(data);
              if(data!=null){
-                alert("done");
+                alert("Done");
                 
              }
         });
